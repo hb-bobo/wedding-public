@@ -4,7 +4,7 @@
 > 体验二维码
 婚礼小程序转化版：
 
-![小程序效果](./qr.jpg)
+![小程序效果](qr.jpg)
 
 
 > 开发参考 [掘金文章](https://juejin.im/post/5c341e1d6fb9a049f66c4876#heading-5)
