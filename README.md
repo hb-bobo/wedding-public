@@ -1,10 +1,20 @@
 
 # 婚礼邀请函
 
-> 体验二维码
-婚礼小程序转化版：
 
-![小程序效果](/qr.jpg)
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+```
+
+
+> 体验二维码
+婚礼小程序：
+
+![小程序效果](./qr.jpg)
 
 
 > 开发参考 [掘金文章](https://juejin.im/post/5c341e1d6fb9a049f66c4876#heading-5)
@@ -29,14 +39,6 @@
 
 ![云数据库](./database.png)
 
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-```
 
 
 ## 注意点
