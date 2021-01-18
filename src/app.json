@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/message/main",
+    "pages/photo/main",
+    "pages/map/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+          "pagePath": "pages/index/main",
+          "iconPath": "static/images/1-1.png",
+          "selectedIconPath": "static/images/1-2.png",
+          "text": ""
+      },
+      {
+          "pagePath": "pages/photo/main",
+          "iconPath": "static/images/2-1.png",
+          "selectedIconPath": "static/images/2-2.png",
+          "text": ""
+      },
+      {
+          "pagePath": "pages/map/main",
+          "iconPath": "static/images/3-1.png",
+          "selectedIconPath": "static/images/3-2.png",
+          "text": ""
+      },
+      {
+          "pagePath": "pages/message/main",
+          "iconPath": "static/images/5-1.png",
+          "selectedIconPath": "static/images/5-2.png",
+          "text": ""
+      }
+    ]
+  },
+  "requiredBackgroundModes": ["audio"],
+  "cloud": true
+}

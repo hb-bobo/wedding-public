@@ -1,0 +1,185 @@
+@-webkit-keyframes musicRotate
+  from
+    -webkit-transformb rotate(0deg)
+  to
+    -webkit-transform rotate(360deg)
+@-webkit-keyframes musicStop
+  from
+    -webkit-transform rotate(20deg)
+  to
+    -webkit-transform rotate(0deg)
+@-webkit-keyframes musicStart
+  from
+    -webkit-transform rotate(0deg)
+  to
+    -webkit-transform rotate(20deg)
+@-webkit-keyframes infoAnimation
+  0%
+    -webkit-transform scale(1) translate(0, 0)
+  50%
+    -webkit-transform scale(.9) translate(5px, 5px)
+  100%
+    -webkit-transform scale(1) translate(0, 0)
+.bg_music
+  position fixed
+  right 0
+  top 20rpx
+  width 100rpx
+  z-index 99
+  display flex
+  justify-content flex-start
+  align-items flex-start
+.music_icon
+  width 60rpx
+  height 60rpx
+.music_play
+  width 28rpx
+  height 60rpx
+  margin-left -10rpx
+  transform-origin top
+  -webkit-transform rotate(0deg)
+  animation musicStop 1s linear forwards
+.bg_music.playing
+.music_play
+  animation musicStart 1s linear forwards
+.music_icon
+  animation musicRotate 3s linear infinite
+.index
+  height 100%
+  position relative
+.cover
+  position absolute
+  top -30px
+  left 0
+  opacity 1
+  width 100%
+  height 100%
+.big-content
+  position relative
+  width 320px
+  margin 0 auto
+  padding-top 13px
+.wreath-wrap-copy,
+.wreath-wrap
+  // position absolute
+  // top 50px
+  // left 50%
+  margin 20px auto
+  width 260px
+  height 260px
+  z-index 4
+  // margin-left -130px
+  overflow hidden
+  border-radius 50%
+  .our-photo
+    position relative
+    top: -38px
+    left: -32px
+
+.wreath
+  position absolute
+  top 2px
+  left 50%
+  width 324px
+  height 319.444px
+  margin-left -162px
+  z-index 4
+  animation 20s linear 0s infinite  rotateIn
+
+.wedding
+  margin-top 18px
+  width 287px
+  height 45.5241px
+.text-1-wrap
+  margin-top 4px
+.text
+  font-family "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif
+  writing-mode horizontal-tb
+  cursor default
+  min-height inherit
+.text-1
+  padding 5px
+  width 100%
+  height 100%
+  font-size 12px
+  letter-spacing 0.88em
+
+.text-2
+  margin-top 10px
+  font-size 13px
+  letter-spacing 0em
+.text-3
+  font-size 13px
+  letter-spacing 0em
+  color rgb(143, 143, 143)
+.bottom-box
+  position fixed
+  left 0
+  width 100%
+  bottom 10%
+.our-name
+  position relative
+  display flex
+  width 80%
+  margin 0 auto
+  border-radius 30px
+  overflow hidden
+  color #ffffff
+  .symbol
+    position absolute
+    left: 50%
+    margin-left -8px
+  .boy
+    flex 1
+    background-color #9ebc8e
+    text-align right
+    padding-right 13px
+  .girl
+    flex 1
+    padding-left 13px
+    background-color #fe84ae
+    text-align left
+.img-line-wrap
+  margin-top  6px
+
+.img-line
+  width 278px
+  height  17.5271px
+  margin-top  -0.263573px
+.cover-upload
+  position absolute
+  left 50%
+  top 150px
+  transform translate(-50%, 0)
+  z-index 100
+  font-size 12px
+.form-input
+  display inline-block
+  vertical-align middle
+  border 1px dashed blue
+.buttons
+  position absolute
+  right 10px
+  width 100px
+  bottom 30%
+  
+  ._button
+    width 80px
+    margin-top 10px
+    padding 4px 2px
+    font-size 12px
+.cover-eidtor-button
+  position absolute
+  z-index 100
+.cover-eidtor-button.left
+  left 10px
+  top 40%
+.cover-eidtor-button.right
+  right 10px
+  top 40%
+.cover-eidtor-button.top
+  left 40%
+  top 10px
+.cover-eidtor-button.bottom
+  left 40%
+  bottom 60px
