@@ -35,7 +35,7 @@ npm run dev
 
 
 - 云开发：
-  需要提前创建一个云数据库并建好字段，字段参考database目录
+  需要提前创建一个云数据库并建好字段，字段参考[./database](./database)目录
 
 ![云数据库](./database.png)
 
