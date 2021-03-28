@@ -39,7 +39,7 @@
   },
   "miniprogramRoot": "dist/wx/",
   "compileType": "miniprogram",
-  "appid": "wxbe17cfd2babc9709",
+  "appid": "微信小程序申请",
   "projectname": "wedding",
   "cloudfunctionRoot": "functions/",
   "simulatorType": "wechat",
