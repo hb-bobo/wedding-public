@@ -18,7 +18,7 @@ npm run dev
 
 
 > 开发参考 [掘金文章](https://juejin.im/post/5c341e1d6fb9a049f66c4876#heading-5)
-> 可加原作者微信(huangbin910419）备注（‘掘金’或者‘码云’）进群讨论
+> 可加原作者微信(huangbin910419）备注（‘掘金’或者‘码云’）进群讨论，我也在群里
 
 > 也有[taro版](https://github.com/wuhou123/taro-card), 由于时间缘故就不反复折腾，有时间可以用taro写，毕竟mpvue不维护了 
 
